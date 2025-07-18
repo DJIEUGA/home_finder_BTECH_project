@@ -129,7 +129,7 @@ const ListingDetailPage: React.FC = () => {
                 </div>
               </div>
               <div className="text-right">
-                <div className="text-2xl font-bold text-primary-500">${listing.price}/mo</div>
+                <div className="text-2xl font-bold text-primary-500">{listing.price} FCFA/mo</div>
                 <span className={`badge ${listing.leaseType === 'short' ? 'bg-warning-500' : 'bg-success-500'} text-white`}>
                   {listing.leaseType === 'short' ? 'Short-term' : 'Long-term'}
                 </span>

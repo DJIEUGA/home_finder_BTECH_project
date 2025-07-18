@@ -85,16 +85,16 @@ const FilterDrawer: React.FC<FilterDrawerProps> = ({
             <h4 className="font-semibold mb-3">Price Range</h4>
             <div>
               <div className="flex justify-between mb-1">
-                <span className="text-sm">$0</span>
-                <span className="text-sm">${localFilters.priceMax || 3000}+</span>
+                <span className="text-sm">0 FCFA</span>
+                <span className="text-sm">{localFilters.priceMax || 1000000} "FCFA" +</span>
               </div>
               <input
                 type="range"
                 name="priceMax"
-                min="500"
-                max="3000"
-                step="100"
-                value={localFilters.priceMax || 3000}
+                min="25000"
+                max="1000000"
+                step="1000"
+                value={localFilters.priceMax || 1000000}
                 onChange={handleChange}
                 className="w-full"
               />
