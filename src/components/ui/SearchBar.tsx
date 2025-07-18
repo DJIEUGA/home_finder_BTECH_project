@@ -31,7 +31,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
       </div>
       
       <div className="flex items-center w-full sm:w-auto border rounded-md px-3 py-2 focus-within:ring-2 focus-within:ring-primary-500 focus-within:border-transparent">
-        <DollarSign size={20} className="text-neutral-400 mr-2" />
+        <span className='text-black'>F CFA &nbsp;</span>
         <input
           type="number"
           placeholder="Max price"

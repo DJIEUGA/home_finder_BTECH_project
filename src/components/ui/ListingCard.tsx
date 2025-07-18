@@ -71,7 +71,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ listing, onClick }) => {
       <div className="p-4">
         <div className="flex justify-between items-start mb-2">
           <h3 className="font-semibold text-lg line-clamp-1">{listing.title}</h3>
-          <p className="font-bold text-lg">${listing.price}/mo</p>
+          <p className="font-bold text-lg">{listing.price} FCFA/mo</p>
         </div>
         
         <p className="text-sm text-neutral-500 mb-3">{listing.location.address}</p>

@@ -59,7 +59,7 @@ const ListingsPage: React.FC = () => {
             <p className="text-neutral-600">
               {listings.length} homes available
               {filters.location ? ` in ${filters.location}` : ''}
-              {filters.priceMax ? ` under $${filters.priceMax}` : ''}
+              {filters.priceMax ? ` under ${filters.priceMax} FCFA` : ''}
             </p>
           </div>
           

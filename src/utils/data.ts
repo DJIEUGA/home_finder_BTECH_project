@@ -1,22 +1,20 @@
-import { Listing } from '../types';
+import { Listing } from "../types";
 
 export const MOCK_LISTINGS: Listing[] = [
   {
-    id: '1',
-    title: 'Modern Studio Apartment Near Campus',
-    description: 'Bright, spacious studio apartment located just 10 minutes from university campus. Perfect for students!',
-    price: 950,
-    images: [
-      'https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "1",
+    title: "Modern Studio Apartment Near Campus",
+    description:
+      "Bright, spacious studio apartment located just 10 minutes from university campus. Perfect for students!",
+    price: 70000,
+    images: ['/images/h1/1.jpeg', '/images/h1/2.jpeg', '/images/h1/3.jpeg'],
     location: {
-      address: '123 University Ave, Boston, MA',
+      address: "PK8",
       latitude: 42.3505,
-      longitude: -71.1054
+      longitude: -71.1054,
     },
-    amenities: ['wifi', 'laundry', 'ac'],
-    leaseType: 'long',
+    amenities: ["wifi", "laundry", "ac"],
+    leaseType: "long",
     isFurnished: true,
     bedroomCount: 0,
     bathroomCount: 1,
@@ -25,27 +23,33 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromCampus: 0.7,
     safetyScore: 85,
     contactInfo: {
-      name: 'Jane Doe',
-      email: 'janedoe@example.com',
-      phone: '(617) 555-1234'
-    }
+      name: "Jane Doe",
+      email: "janedoe@example.com",
+      phone: "+237 6 71 81 88 01",
+    },
   },
   {
-    id: '2',
-    title: 'Luxury 1BR in Downtown',
-    description: 'Upscale 1-bedroom apartment in the heart of downtown. Walking distance to major corporate offices and amenities.',
-    price: 1800,
-    images: [
-      'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "2",
+    title: "Luxury 1BR in Downtown",
+    description:
+      "Upscale 1-bedroom apartment in the heart of downtown. Walking distance to major corporate offices and amenities.",
+    price: 90000,
+    images: ['/images/h2/1.jpeg', '/images/h2/2.jpeg', '/images/h2/3.jpeg'],
     location: {
-      address: '50 Franklin St, Boston, MA',
+      address: "50 Franklin St, Boston, MA",
       latitude: 42.3554,
-      longitude: -71.0591
+      longitude: -71.0591,
     },
-    amenities: ['wifi', 'gym', 'laundry', 'parking', 'ac', 'dishwasher', 'security'],
-    leaseType: 'long',
+    amenities: [
+      "wifi",
+      "gym",
+      "laundry",
+      "parking",
+      "ac",
+      "dishwasher",
+      "security",
+    ],
+    leaseType: "long",
     isFurnished: false,
     bedroomCount: 1,
     bathroomCount: 1,
@@ -54,27 +58,25 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromWork: 0.3,
     safetyScore: 92,
     contactInfo: {
-      name: 'Michael Smith',
-      email: 'msmith@example.com',
-      phone: '(617) 555-5678'
-    }
+      name: "Michael Smith",
+      email: "msmith@example.com",
+      phone: "+237 6 71 81 88 01",
+    },
   },
   {
-    id: '3',
-    title: 'Cozy 2BR Apartment in Quiet Neighborhood',
-    description: 'Comfortable 2-bedroom apartment in a peaceful residential area. Perfect for roommates or small families.',
-    price: 1400,
-    images: [
-      'https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "3",
+    title: "Cozy 2BR Apartment in Quiet Neighborhood",
+    description:
+      "Comfortable 2-bedroom apartment in a peaceful residential area. Perfect for roommates or small families.",
+    price: 250000,
+    images: ['/images/h1/1.jpeg', '/images/h1/2.jpeg', '/images/h1/3.jpeg'],
     location: {
-      address: '42 Maple St, Cambridge, MA',
+      address: "42 Maple St, Cambridge, MA",
       latitude: 42.3736,
-      longitude: -71.1097
+      longitude: -71.1097,
     },
-    amenities: ['wifi', 'parking', 'laundry', 'pets', 'dishwasher'],
-    leaseType: 'long',
+    amenities: ["wifi", "parking", "laundry", "pets", "dishwasher"],
+    leaseType: "long",
     isFurnished: false,
     bedroomCount: 2,
     bathroomCount: 1,
@@ -84,27 +86,25 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromWork: 2.5,
     safetyScore: 88,
     contactInfo: {
-      name: 'Robert Johnson',
-      email: 'rjohnson@example.com',
-      phone: '(617) 555-9012'
-    }
+      name: "Robert Johnson",
+      email: "rjohnson@example.com",
+      phone: "(617) 555-9012",
+    },
   },
   {
-    id: '4',
-    title: 'Short-term Furnished Studio',
-    description: 'Fully furnished studio available for short-term leases. Ideal for visiting researchers or interns.',
-    price: 1200,
-    images: [
-      'https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "4",
+    title: "Short-term Furnished Studio",
+    description:
+      "Fully furnished studio available for short-term leases. Ideal for visiting researchers or interns.",
+    price: 120000,
+    images: ['/images/h3/1.jpeg', '/images/h3/2.jpeg', '/images/h3/3.jpeg'],
     location: {
-      address: '25 Tech Square, Cambridge, MA',
+      address: "25 Tech Square, Cambridge, MA",
       latitude: 42.3629,
-      longitude: -71.0916
+      longitude: -71.0916,
     },
-    amenities: ['wifi', 'ac', 'laundry', 'gym', 'security'],
-    leaseType: 'short',
+    amenities: ["wifi", "ac", "laundry", "gym", "security"],
+    leaseType: "short",
     isFurnished: true,
     bedroomCount: 0,
     bathroomCount: 1,
@@ -114,27 +114,33 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromWork: 1.0,
     safetyScore: 90,
     contactInfo: {
-      name: 'Sarah Wilson',
-      email: 'swilson@example.com',
-      phone: '(617) 555-3456'
-    }
+      name: "Sarah Wilson",
+      email: "swilson@example.com",
+      phone: "(617) 555-3456",
+    },
   },
   {
-    id: '5',
-    title: 'Spacious 3BR Apartment with Balcony',
-    description: 'Large 3-bedroom apartment with a beautiful balcony overlooking the city. Perfect for families or roommates.',
-    price: 2500,
-    images: [
-      'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "5",
+    title: "Spacious 3BR Apartment with Balcony",
+    description:
+      "Large 3-bedroom apartment with a beautiful balcony overlooking the city. Perfect for families or roommates.",
+    price: 250000,
+    images: ['/images/h1/1.jpeg', '/images/h1/2.jpeg', '/images/h1/3.jpeg'],
     location: {
-      address: '75 Beacon Hill, Boston, MA',
+      address: "75 Beacon Hill, Boston, MA",
       latitude: 42.3586,
-      longitude: -71.0707
+      longitude: -71.0707,
     },
-    amenities: ['parking', 'laundry', 'balcony', 'ac', 'dishwasher', 'security', 'gym'],
-    leaseType: 'long',
+    amenities: [
+      "parking",
+      "laundry",
+      "balcony",
+      "ac",
+      "dishwasher",
+      "security",
+      "gym",
+    ],
+    leaseType: "long",
     isFurnished: false,
     bedroomCount: 3,
     bathroomCount: 2,
@@ -143,27 +149,25 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromWork: 1.5,
     safetyScore: 94,
     contactInfo: {
-      name: 'David Brown',
-      email: 'dbrown@example.com',
-      phone: '(617) 555-7890'
-    }
+      name: "David Brown",
+      email: "dbrown@example.com",
+      phone: "+237 653283834",
+    },
   },
   {
-    id: '6',
-    title: 'Budget-Friendly Studio for Students',
-    description: 'Affordable studio apartment perfect for students on a budget. Close to campus and public transportation.',
-    price: 850,
-    images: [
-      'https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/1743227/pexels-photo-1743227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-    ],
+    id: "6",
+    title: "Budget-Friendly Studio for Students",
+    description:
+      "Affordable studio apartment perfect for students on a budget. Close to campus and public transportation.",
+    price: 100000,
+    images: ['/images/h2/1.jpeg', '/images/h2/2.jpeg', '/images/h2/3.jpeg'],
     location: {
-      address: '30 Student Lane, Boston, MA',
+      address: "30 Student Lane, Boston, MA",
       latitude: 42.3401,
-      longitude: -71.1034
+      longitude: -71.1034,
     },
-    amenities: ['wifi', 'laundry'],
-    leaseType: 'long',
+    amenities: ["wifi", "laundry"],
+    leaseType: "long",
     isFurnished: false,
     bedroomCount: 0,
     bathroomCount: 1,
@@ -172,11 +176,11 @@ export const MOCK_LISTINGS: Listing[] = [
     distanceFromCampus: 0.3,
     safetyScore: 82,
     contactInfo: {
-      name: 'Lisa Chen',
-      email: 'lchen@example.com',
-      phone: '(617) 555-2345'
-    }
-  }
+      name: "Lisa Chen",
+      email: "lchen@example.com",
+      phone: "+237 6 71 81 88 01",
+    },
+  },
 ];
 
 export const getListings = (filters?: {
@@ -185,30 +189,37 @@ export const getListings = (filters?: {
   amenities?: string[];
 }): Listing[] => {
   let filteredListings = [...MOCK_LISTINGS];
-  
+
   if (filters) {
-    if (filters.persona === 'student') {
-      filteredListings = filteredListings.filter(listing => 
-        listing.distanceFromCampus !== undefined && 
-        (listing.price <= 1500 || filters.priceMax === undefined)
+    if (filters.persona === "student") {
+      filteredListings = filteredListings.filter(
+        (listing) =>
+          listing.distanceFromCampus !== undefined &&
+          (listing.price <= 7500 || filters.priceMax === undefined)
       );
-    } else if (filters.persona === 'professional') {
-      filteredListings = filteredListings.filter(listing => 
-        listing.safetyScore >= 85 && 
-        (listing.distanceFromWork !== undefined || listing.amenities.includes('parking'))
+    } else if (filters.persona === "professional") {
+      filteredListings = filteredListings.filter(
+        (listing) =>
+          listing.safetyScore >= 85 &&
+          (listing.distanceFromWork !== undefined ||
+            listing.amenities.includes("parking"))
       );
     }
-    
+
     if (filters.priceMax) {
-      filteredListings = filteredListings.filter(listing => listing.price <= filters.priceMax!);
+      filteredListings = filteredListings.filter(
+        (listing) => listing.price <= filters.priceMax!
+      );
     }
-    
+
     if (filters.amenities && filters.amenities.length > 0) {
-      filteredListings = filteredListings.filter(listing => 
-        filters.amenities!.every(amenity => listing.amenities.includes(amenity as any))
+      filteredListings = filteredListings.filter((listing) =>
+        filters.amenities!.every((amenity) =>
+          listing.amenities.includes(amenity as any)
+        )
       );
     }
   }
-  
+
   return filteredListings;
 };
